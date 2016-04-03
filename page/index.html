@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的首页</title>
+</head>
+<body>
+
+<script src="../static/lib/sea.js"></script>
+<!--用于加载css样式-->
+<script src="../static/lib/seajs-css.js"></script>
+<script>
+    seajs.config({
+       base:"../node_modules/",
+        alias:{
+            "jquery":"jquery/dist/jquery.min.js"
+        }
+    });
+
+    //加载第一个js
+    seajs.use("../static/mod/index/index",function(index){
+        index.shi();
+    })
+</script>
+</body>
+</html>

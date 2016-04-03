@@ -1,0 +1,27 @@
+{
+  "name": "pyseajs",
+  "version": "1.0.0",
+  "description": "\"python 构建服务器 前端使用Seajs 进行模块化加载 前端构建\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shi1991"
+  },
+  "keywords": [
+    "python",
+    "Seajs",
+    "前端构建"
+  ],
+  "author": "shi.changcheng",
+  "license": "ISC",
+  "dependencies": {
+    "fis-optimizer-uglify-js": "^0.1.14",
+    "fis3": "^3.3.21",
+    "fis3-hook-cmd": "^0.1.2",
+    "fis3-postpackager-loader": "^1.3.15",
+    "jquery": "^2.2.2"
+  }
+}
